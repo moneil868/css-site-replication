@@ -8,3 +8,88 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+li {
+  display: inline-block;
+  padding: 5px;
+  color: #003568;
+  font-weight: bold;
+}
+
+
+/*footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+}*/
+
+main {
+    padding: 60px 10%;
+    background: url(../images/bgtile.png);
+    background-repeat: repeat-x;
+}
+
+
+#copyright {
+  color: #000;
+  font-weight: normal;
+  padding-left: 50px;
+}
+
+.bottom-menu {
+  text-align: center;
+}
+
+.left {
+  display: inline-block;
+  width: 38%;
+}
+
+.right {
+    display: inline-block;
+    width: 60%;
+}
+
+.brand-heading {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.login-button {
+    display: inline-block;
+    border: 1px solid #06365f;
+    background: #1c5380;
+    border-radius: 4px;
+    padding: 6px;
+    color: #dad4d4;
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+}
+
+.login-button img {
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+.content {
+    background: url(../images/frame.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.store-images img {
+    padding: 10px;
+}
+
+.store-images{
+    text-align: center;
+}
+
+.content h2 {
+  color: #06365f;
+}
